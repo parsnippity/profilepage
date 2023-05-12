@@ -1,0 +1,202 @@
+html,
+body,
+div,
+span,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+pre,
+a,
+address,
+code,
+del,
+em,
+img,
+ins,
+strike,
+strong,
+sub,
+sup,
+var,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+canvas,
+footer,
+header,
+menu,
+nav,
+section,
+summary {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+footer,
+header,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: "";
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+p, h1 {
+    margin: 10px;
+}
+
+#profilePicSection {
+    margin: 10px;
+    display: flex;
+}
+
+.boxes {
+    height: 75px;
+}
+
+.childBox {
+    display: none;
+    height: 225px;
+    overflow: hidden;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+#largeBox {
+    display: flex;
+}
+
+#allClicks {
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 225px;
+}
+
+#infoBoxes {
+    width: calc(100% - 200px);
+}
+
+#about, #aboutBox {
+    background-color: mediumaquamarine;
+    display: block;
+}
+
+#hobbies, #hobbyBox {
+    background-color: skyblue;
+}
+
+#tripStory, #tripStoryBox {
+    background-color: lightsalmon;
+}
+
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-image: url("../../../images/magellanicclouds.jpg");
+    color: whitesmoke; */
+    background-color: navy;
+}
+
+h1 {
+    font-size: 1.5em;
+}
+
+article {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    margin: auto;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    min-height: 96vh;
+}
+
+#imageBox {
+    display: flex;
+    justify-content: space-between;
+    margin: 2vh;
+    align-items: center;
+}
+
+.images {
+    width: 100%;
+    height: fit-content;
+}
+
+#imageBox > div {
+    width: 30%;
+    transition: all 0.4s;
+}
+
+.imageCaption {
+    display: none;
+}
+
+.caption {
+    text-align: center;
+}
+
+#profileInfo {
+    margin: auto;
+    margin-left: 5px;
+    margin-right: 0px;
+}
